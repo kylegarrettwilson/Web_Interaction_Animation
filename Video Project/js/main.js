@@ -4,10 +4,10 @@ $(function() {
     $( "#button" ).click(function() {
         if ( state ) {
             $( "#change" ).animate({   //first state of animation
-                backgroundColor: "plum",  // using the plug in variables
+                backgroundColor: "limegreen",  // using the plug in variables
                 color: "white",
-                width: 600
-            }, 1000 );   //speed of animation
+                width: 1000
+            }, 200 );   //speed of animation
         } else {
             $( "#change" ).animate({    //second state of animation
                 backgroundColor: "smokewhite",     // using the plug in variables
