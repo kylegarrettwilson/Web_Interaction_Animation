@@ -1,0 +1,30 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.toggle {
+    width: 200px;   /* set to first stage of animation width aka false */
+}
+
+#button {
+
+    margin-top: 20px;
+    padding: 8px 4px;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+#change {
+    padding: 0.4em;
+}
+
+
+#change h3 {
+
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+
+}
