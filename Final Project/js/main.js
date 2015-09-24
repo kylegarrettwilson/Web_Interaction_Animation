@@ -25,6 +25,22 @@ window.onload = function() {
 
 
 
+                var canvas2 = document.getElementById("Canvas1");
+                var ctx = canvas2.getContext("2d");
+
+
+                ctx.strokeStyle = "red";
+                ctx.lineWidth = 10;
+
+
+                ctx.beginPath();
+                ctx.moveTo(100, 100);
+                ctx.lineTo(400, 100);
+
+                ctx.closePath();
+                ctx.stroke();
+
+
 
 
 
@@ -36,5 +52,43 @@ window.onload = function() {
 
         }
 
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
