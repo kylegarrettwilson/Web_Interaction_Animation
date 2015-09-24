@@ -58,6 +58,20 @@ p{
 }
 
 
+section{
+    width: 100%;
+}
+
+section a{
+    width: 100%;
+}
+
+a img{
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
 
 
 
