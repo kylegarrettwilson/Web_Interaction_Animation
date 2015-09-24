@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    background-image: url(../images/dark-canvas.gif);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header{
+    width: 100%;
+    position: relative;
+}
+
+#header img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+
+nav{
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    padding-top: 45%;
+
+
+}
+
+nav a{
+    margin: 32px;
+    text-decoration: none;
+    border-bottom: solid red 3px;
+    color: black;
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+
+
+#video{
+    position: relative;
+    margin-top: 10%;
+
+}
