@@ -178,6 +178,60 @@ h2{
 
 
 
+/* Map */
+
+
+.map_container{
+    background: url(../images/map.png) no-repeat 0 0;
+    height: 600px;
+    width: 760px;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    float: right;
+    margin-left: 20px;
+
+
+}
+
+
+.map_container a.dot{
+    background: url(../images/dot.png) no-repeat 0 0;
+    height: 30px;
+    width: 40px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.map_container a.dot.selected{
+    opacity: .3;
+
+}
+
+.map_container .form_state{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.city_detail_container{
+    display: none;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.city_info{
+    margin-top: 100px;
+}
+
+
+
+
+
+
 
 
 

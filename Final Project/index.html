@@ -82,7 +82,7 @@
 
 
 
-
+            <!-- jQuery Effect -->
 
             <div id="content">
 
@@ -100,10 +100,13 @@
 
 
 
+
+        <!-- Bar Graph -->
+
         <section>
             <header>
                 <h2>
-                    Here are the channels most recent statistics:
+                    Channel statistics:
                 </h2>
             </header>
 
@@ -132,12 +135,102 @@
                 </div>
             </div>
 
+        </section>
 
 
 
 
 
+        <!-- Map -->
 
+
+            <header>
+                <h2>
+                    Come see me live! Find a show near you!
+                </h2>
+            </header>
+
+
+        <div class="map_container">
+
+
+            <a class="dot" style="top: 371px; left: 250px;" state="oregon" city="bend"></a>
+            <a class="dot" style="top: 300px; left: 200px;" state="oregon" city="portland"></a>
+            <a class="dot" style="top: 400px; left: 200px;" state="oregon" city="eugene"></a>
+            <a class="dot" style="top: 500px; left: 250px;" state="oregon" city="medford"></a>
+            <a class="dot" style="top: 90px; left: 200px;" state="washington" city="seattle"></a>
+            <a class="dot" style="top: 260px; left: 200px;" state="washington" city="vancouver"></a>
+
+            <form id="mapForm" name="mapForm" class="form_state" method="post" action="">
+                <select name="state" id="state">
+                    <option value="oregon">Oregon</option>
+                    <option value="washington">Washington</option>
+                    <option value="ALL" selected="selected">Show all shows</option>
+                </select>
+            </form>
+
+
+            <div class="detail_container">
+                <div class="city_detail">
+                    <h3>Choose your city!</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+         <!-- City -->
+
+
+            <div class="city_detail_container">
+                <div class="city_detail" id="bend">
+                    <div class="city_info">
+                        <h3>Bend</h3>
+                        <p>Show is 6-12-16</p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+
+                <div class="city_detail" id="portland">
+                    <div class="city_info">
+                        <h3>Portland</h3>
+                        <p>Show is 6-15-16</p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+
+                <div class="city_detail" id="eugene">
+                    <div class="city_info">
+                        <h3>Eugene</h3>
+                        <p>Show is 6-30-16</p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+
+                <div class="city_detail" id="medford">
+                    <div class="city_info">
+                        <h3>Medford</h3>
+                        <p>Show is 7-12-16</p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+
+                <div class="city_detail" id="vancouver">
+                    <div class="city_info">
+                        <h3>Vancouver</h3>
+                        <p>Show is 8-12-16</p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+
+                <div class="city_detail" id="Seattle">
+                    <div class="city_info">
+                        <h3>Seattle</h3>
+                        <p>Show is 9-12-16</p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+            </div>
 
 
 
